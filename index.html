@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://www.gstatic.com/_/mss/boq-fonts/_/js/k=boq-fonts.GoogleFontsCatalogUi.en_US.lfsDX8UwdQQ.2018.O/d=1/excm=_b/ed=1/dg=0/br=1/wt=2/ujg=1/rs=AN-kedQ1ZUL8tFa1oXTFmEKPNRDF63Rz-g/ee=Pjplud:PoEs9b;QGR0gd:Mlhmy;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;cEt90b:ws9Tlc;dowIGb:ebZ3mb;lOO0Vd:OTA3Ae;qafBPd:ovKuLd/dti=1/m=_b" as="script"  >
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=TASA+Orbiter:wght@400..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+    </style>
+</head>
+<body>
+    
+    <form action="/submit-form" class="form-container" >
+        <div class="header-section">
+            
+            <img src="./assets/images/Caduceus Vector Icon.png" alt="healthcityhospital" id="img"  class="image-flex"> 
+            <div class="headings">
+            <p class="google-sans-flex-54">HEALTH CITY</p>
+            <p class="google-sans-flex-55" >HOSPITAL </p>
+         </div>
+       </div>
+        <p class="titillium-web-semibold">Vaccination Consent Form</p>
+
+        <p class="titillium-web-light ";>Patient Information</p>
+
+        <div class="form-group">
+            <label for="full-name">Full Legal Name*</label>
+            <input type="text" id="full-name" class="bottom-line-input"/>
+        </div>
+       
+        
+        <div class="containers">
+            <div  class="form-group half-width">
+                <label class="open-sans-25" class="date-field-name" for="date">Date of Birth*</label>
+                    <div class="date-fields">
+                        <div class="date-group">
+                            <input type="number" class="input-date" max="2" name="date" placeholder="DD"  required/>
+                            <span class="date-spliter">/</span>
+                            <input type="number" class="input-date" max="2" name="date"placeholder="MM"  required/>
+                            <span class="date-spliter">/</span>
+                            <input type="number" class="input-date" max="4"name="date" id="year" placeholder="YYYY"  required/>
+                        </div>
+                        <div class="calendar-icon">
+                            <img src="./assets/images/calendar-icon.png" class="calendar-icons" >
+                        </div>
+                    </div>
+            </div>
+             
+            <div class=" form-group half-width" >
+                <label for="Medicalnumber" class="open-sans-25">Medical Number (if known)</label>
+                <input type="tel" name="Medicalnumber" class="bottom-line-input"  required/>
+            </div>
+        </div>
+
+        <div class="containers">
+            <div  class="form-group half-width">
+                <label for="phone" class="open-sans-25">Phone Number*</label>
+                <input type="tel" max="10" name="phone"class="bottom-line-input"  required/>
+            </div>
+            <div class="form-group half-width">
+                <label for="email" class="open-sans-25">Email Address*</label>
+                <input type="email"  name="email"class="bottom-line-input" required />
+            </div>
+        </div>
+        
+        
+            <h4 class="address-font" >Address*</h3>
+            <div class="containers">
+                <div  class="form-group half-width">
+                    <label for="text" class="add-font-size open-sans-25" >Street*</label>
+                    <input type="text" class="bottom-line-input"required/>            
+                    
+                </div>
+                <div class="form-group half-width">
+                    <label for="text"  class="add-font-size open-sans-25" >City/Subrup</label>
+                    <input type="text"class="bottom-line-input" required/>
+                </div>
+            </div>
+            <div class="containers">
+                <div  class="form-group half-width">
+                    <label for="text" class="add-font-size open-sans-25" >State*</label>
+                    <input type="text"class="bottom-line-input" required/>
+                </div>
+                <div  class="form-group half-width">
+                    <label for="" class="add-font-size open-sans-25" >Zip/Post Code*</label>
+                    <input type="text"class="bottom-line-input" required/>
+                </div>
+            </div>
+        <div class="form-group">
+            <label for="" class="add-font-size open-sans-25" >Country*</label>
+            <input type="text" class="bottom-line-input" required/>
+        </div>
+    </div>
+        
+        </form>
+    
+
+</body>
+</html>
