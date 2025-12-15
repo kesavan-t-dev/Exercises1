@@ -27,8 +27,7 @@
     border: none;
     outline: none;
     border-bottom: 1px solid white;
-    background-color: transparent; /* Must be transparent to show the container background */
-    font-size: 16px;
+    background-color: transparent; 
     font-family: inherit;
     transition: border-bottom-color 0.3s;
 
