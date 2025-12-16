@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-.form-container{
+.form_container{
   width: 46em;
   margin: 30px auto;
-  padding: 4.5rem 5rem ;
+  padding: 4.5rem 6rem 1.8rem 6rem ;
   color: white;
   background-color: #3c576c;
   max-width: 90%;
@@ -15,11 +15,11 @@
 
 }
 
-.image-flex{
+.image_flex{
   height:7rem;
   width: 6.5rem;
 }
-.bottom-line-input {
+.bottom_line_input {
     width: 100%;
     padding: 5px 0;
     color: rgb(255, 255, 255);
@@ -33,7 +33,7 @@
 
 }
 
-.header-section {
+.header_section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,7 @@
     margin-bottom: 10px;
 
 }
-.form-group{
+.form_group{
   display: flex;
   flex-direction: column;
   width: 100%; 
@@ -59,22 +59,22 @@
     "wdth" 75;
 }
 
-.half-width{
+.half_width{
     flex: 1;
 }
-.address-font{
+.address_font{
  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 350;
   font-style: normal;
-  font-size: 14px;
+  font-size: 13px;
   font-variation-settings: "wdth" 75;
   margin-bottom: 15px;
 }
 
 label {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 5px;
   color: white;
   font-family: "Open Sans", sans-serif;
@@ -85,7 +85,7 @@ label {
   
 }
 
-.titillium-web-semibold {
+.titillium_web_semibold {
   font-family: "Titillium Web", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -94,7 +94,7 @@ label {
   font-size: 2.3rem;
 }
 
-.google-sans-flex-54 {
+.google_sans_flex_54 {
   font-family: "Google Sans Flex", sans-serif;
   
   font-weight: 600;
@@ -108,7 +108,7 @@ label {
 }
 
 
-.google-sans-flex-55 {
+.google_sans_flex_55 {
   font-family: "Google Sans Flex", sans-serif;
   margin-top: 0;
   
@@ -121,7 +121,7 @@ label {
     "ROND" 0;
 }
 
-.titillium-web-light {
+.titillium_web_light {
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
@@ -132,7 +132,7 @@ label {
 }
 
 
-.date-group{
+.date_group{
   display: flex;
   align-items: flex-end; 
   border-bottom: 1px solid white; 
@@ -144,7 +144,7 @@ label {
 
 
 
-.input-date{
+.input_date{
   border: none;
   background-color: transparent;
   outline: none;
@@ -160,13 +160,13 @@ label {
 #year{
   width: 4rem;
 }
-.calendar-icon{
+.calendar_icon{
   background-color: white;
   padding: 1px 13px ;
   border-radius: 25px;
   margin: auto 5px;
 }
-.calendar-icons{
+.calendar_icons{
   
   height: 11px;
   width: 10px;
@@ -174,20 +174,20 @@ label {
 }
 
 
-.date-spliter{
+.date_spliter{
   font-size: 16px;
   font-weight: 300;
   margin: 0 5px;
 }
 
-.date-fields{
+.date_fields{
   right: 0;
   display: flex;
   justify-content: center;
 
 }
-.add-font-size{
-  font-size: 11px;
+.add_font_size{
+  font-size: 10px;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -197,8 +197,3 @@ label {
 }
 
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
