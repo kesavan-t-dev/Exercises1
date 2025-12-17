@@ -5,9 +5,9 @@
 }
 
 .form_container{
-  width: 46em;
+  width: 44rem;
   margin: 30px auto;
-  padding: 4.5rem 6rem 1.8rem 6rem ;
+  padding: 4.5rem 6rem 2rem 6rem ;
   color: white;
   background-color: #3c576c;
   max-width: 90%;
@@ -196,4 +196,7 @@ label {
   font-variation-settings:"wdth" 50;
 }
 
-
+.address_space{
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
